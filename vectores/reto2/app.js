@@ -7,7 +7,11 @@ function Estudiante(nombre, calificaciones) {
     this.calificaciones = calificaciones;
   }
   
- 
+  // Paso 2: Inicializar el vector de estudiantes
+  const estudiantes = [
+    new Estudiante("Juan", [90, 85, 92]),
+    new Estudiante("María", [88, 91, 87]),
+  ];
   
   // Paso 3: Agregar nuevos estudiantes
   function agregarEstudiante(nombre, calificaciones) {
